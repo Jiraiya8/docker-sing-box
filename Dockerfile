@@ -38,4 +38,4 @@ EXPOSE 2080
 
 ENTRYPOINT [ "/usr/local/bin/sing-box" ]
 
-CMD [ "help" ]
+CMD [ "run", "-c", "/etc/sing-box/config.json" ]
